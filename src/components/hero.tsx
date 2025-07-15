@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { Logo } from "~/components/svgs/index";
 
 import Form from "./form";
 
@@ -11,6 +12,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center gap-6">
       <div className="flex flex-col items-center justify-center gap-6 mb-6">
+                <Logo />
         <div className="flex items-center gap-4 rounded-full border border-border px-4 py-1 relative">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-400 opacity-75" />

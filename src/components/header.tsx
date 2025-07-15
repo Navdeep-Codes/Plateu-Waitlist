@@ -18,15 +18,16 @@ export default function Header() {
 			)}
 		>
 			<Link
-				href="https://valiant-cobweb-66d.notion.site/1f6821a3f402802ca641e5e19d28a9b2?v=1f6821a3f402810d8a47000cad3beb2d&pvs=74"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="cursor-pointer"
-			>
-				<Button variant="secondary">
-					Plateu
-				</Button>
-			</Link>
+					href="https://plateu.is-open-source.org"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="cursor-pointer"
+				>
+					<Button variant="secondary">
+						<GithubLogo />
+						<span className="hidden md:inline">Contribute</span>
+					</Button>
+				</Link>
 
 			<div className="flex items-center gap-2">
 				<Link

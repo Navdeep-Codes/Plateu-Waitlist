@@ -25,7 +25,7 @@ export default function Header() {
 				>
 					<Button variant="secondary">
 						<GithubLogo />
-						<span className="hidden md:inline">Contribute</span>
+						<span className="hidden md:inline">Plateu (Soon)</span>
 					</Button>
 				</Link>
 
